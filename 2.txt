@@ -1,0 +1,9 @@
+DECLARE 
+TYPE T_POPULATION IS TABLE OF NUMBER INDEX BY VARCHAR2(64);
+	l_city_population  T_POPULATION;
+	l_i number;
+ BEGIN
+	l_city_population('Smallville')  := 2000;
+	l_i:= l_city_population('Smallville') ;
+ END;
+ 
