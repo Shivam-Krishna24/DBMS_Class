@@ -1,0 +1,10 @@
+DECLARE 
+l_x NUMBER := 20000; 
+	l_message VARCHAR2(40);
+	C_PI CONSTANT NUMBER(3,2):=3.14;
+ BEGIN
+   l_x := 1000 * C_PI;
+   l_message := 'Hello world’;
+	dbms_output.put_line(l_x);
+	dbms_output.put_line(l_message);
+ END; 
