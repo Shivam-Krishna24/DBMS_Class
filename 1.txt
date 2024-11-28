@@ -8,3 +8,4 @@ l_x NUMBER := 20000;
 	dbms_output.put_line(l_x);
 	dbms_output.put_line(l_message);
  END; 
+/
